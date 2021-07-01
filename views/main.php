@@ -8,7 +8,9 @@
 </head>
 <body>
 <?php include '../component/header.php';?>
-    
+
+
+<?php include '../component/skirting.php';?>  
 <script>
 $(document).ready(function(){
     $('.sidenav').sidenav();
