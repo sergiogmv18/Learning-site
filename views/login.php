@@ -9,6 +9,43 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection" />
     <title>Login</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, black,cyan);
+
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.8);
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: white;
+
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            color:white;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor:pointer;
+        }
+        button:hover{
+        background-color: deepskyblue;
+        }
+    </style>
    </head>
 <body>
     <div>
@@ -23,4 +60,3 @@
     <script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
 </body>
 </html>
-<div id="ok"></div>
