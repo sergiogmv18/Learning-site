@@ -12,18 +12,19 @@ body {
     display: table-cell;
     vertical-align: middle;
     width: 100%; 
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../img/fundo.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../img/fundologin4.jpg);
      background-position: center;
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
      justify-content: center; 
     align-items: center; 
-   
+
 }
 
 #login-page {
    width: 500px;
+   
 }
 
 .card {
