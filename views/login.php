@@ -14,6 +14,7 @@
 
 <body ng-app="mainModule" ng-controller="mainController">
     <div id="login-page" class="row">
+        
         <div class="col s12 z-depth-6 card-panel">
             <form class="login-form">
                 <div class="row">
